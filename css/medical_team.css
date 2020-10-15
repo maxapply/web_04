@@ -1,0 +1,827 @@
+/* 头部 轮播图 */
+.header_swiper {
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+.header_swiper .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.header_swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.header_swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.top_swiper .swiper-pagination-bullet {
+  width: 1rem;
+  height: .3rem;
+  border-radius: 0%;
+}
+
+
+.top_swiper .swiper-button-prev {
+  left: 5%;
+  color: #fff;
+  padding: 3% 2%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 3px;
+}
+
+
+.top_swiper .swiper-button-next {
+  right: 5%;
+  color: #fff;
+  padding: 3% 2%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 1rem !important;
+}
+
+
+.top_swiper .swiper-pagination-bullet-active {
+  background-color: #AE57A4;
+}
+
+.tit {
+  width: 100%;
+  text-align: center;
+  margin: 2% auto;
+}
+
+.tit h3 {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: .3rem;
+  padding-bottom: .3rem;
+  box-sizing: border-box;
+  border-bottom: 2px solid #AE57A4;
+  position: relative;
+}
+
+.tit h3::after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 4px;
+  left: 50%;
+  bottom: -3px;
+  border-radius: 5px;
+  transform: translateX(-50%);
+  background-color: #B15BFF;
+}
+
+.tit p {
+  font-size: .75rem;
+  font-weight: bolder;
+  color: #999;
+}
+
+
+
+
+/* 专家团队 */
+.team,
+.list_box,
+.map_box {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 2%;
+  padding: 2% 0;
+  box-sizing: border-box;
+
+}
+
+.team_swiper .swiper-slide {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.team_swiper .swiper-slide .text_fl {
+  width: 60%;
+  padding: .3rem 0rem .3rem .8rem;
+  box-sizing: border-box;
+}
+
+.team_swiper .swiper-slide .text_fl h3 {
+  font-size: .9rem;
+  line-height: 1.3rem;
+  margin-bottom: .5rem;
+}
+
+.team_swiper .swiper-slide .text_fl h3 span {
+  font-size: .7rem;
+  color: #999;
+}
+
+.team_swiper .swiper-slide .text_fl p {
+  font-size: .75rem;
+  line-height: 1.3rem;
+}
+
+.team_swiper .swiper-slide .text_fl p span {
+  display: inline-block;
+  width: .5rem;
+  height: .5rem;
+  background: url(../images/medical_team/text_fl_span.png)no-repeat center /100% 100%;
+  vertical-align: middle;
+  margin-right: .3rem;
+}
+
+.team_swiper .swiper-slide .text_fr {
+  width: 35%;
+  padding-right: .5rem;
+  box-sizing: border-box;
+}
+
+.team_swiper .swiper-slide .text_fr img {
+  display: block;
+  width: 100%;
+  border-radius: .5rem;
+}
+
+.text_but {
+  width: 100%;
+  margin-top: .5rem;
+  color: #fff;
+  background: #8f1c2a url(../images/medical_team/text_but.png) .15rem -.01rem no-repeat;
+  background-size: 2rem 2rem;
+  padding: .5rem .5rem .5rem 2.5rem;
+  box-sizing: border-box;
+  font-size: .75rem;
+  line-height: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: -4px;
+}
+
+.team_swiper .swiper-pagination-bullet-active {
+  background-color: #8f1c2a;
+}
+
+.team_swiper .swiper-button-prev {
+  left: 5%;
+  color: #8f1c2a;
+}
+
+.team_swiper .swiper-button-next {
+  right: 5%;
+  color: #8f1c2a;
+}
+
+.team>a,
+.list_box>a {
+  display: block;
+  width: 90%;
+  line-height: 1.8rem;
+  font-size: .75rem;
+  text-align: center;
+  background-color: #8f1c2a;
+  color: #fff;
+  letter-spacing: 5px;
+  margin: .5rem auto;
+}
+
+/* 口腔科普 */
+.list_box {
+  padding: 2% .5rem;
+  height: 18.3rem;
+}
+
+.list_box .list {
+  display: flex;
+  text-align: center;
+}
+
+.list_box .list li {
+  flex: 1;
+  font-size: .75rem;
+  padding: .3rem 0rem;
+  box-sizing: border-box;
+  background-color: #e0e0e0;
+  color: #333;
+  border-right: 2px solid #fff;
+}
+
+.list_box .list li.selected {
+  background-color: #C07AB8;
+  color: #fff;
+}
+
+.list_box .list li:last-child {
+  border-right: 0px;
+}
+
+.list_box .list_text {
+  width: 100%;
+  height: auto;
+  background: url(../images/medical_team/list_bgc.png)no-repeat center /100% 100%;
+  padding: .8rem;
+  box-sizing: border-box;
+}
+
+.list_box .list_text a {
+  display: block;
+  font-size: .73rem;
+  height: 1.3rem;
+  line-height: 1.3rem;
+  color: #333;
+}
+
+.list_box .list_text a span {
+  display: inline-block;
+  width: .5rem;
+  height: .5rem;
+  background: url(../images/medical_team/text_fl_span.png) no-repeat center / 100% 100%;
+  vertical-align: middle;
+  margin-right: .8rem;
+}
+
+
+
+
+.list_swiper.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.list_swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.list_swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  border-radius: .5rem;
+}
+
+.list_swiper .swiper-pagination-bullet {
+  width: 1rem;
+  height: .3rem;
+  border-radius: 0%;
+}
+
+
+.list_swiper .swiper-button-prev {
+  left: 5%;
+  color: #fff;
+  padding: 3% 2%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 3px;
+}
+
+
+.list_swiper .swiper-button-next {
+  right: 5%;
+  color: #fff;
+  padding: 3% 2%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 1rem !important;
+}
+
+
+.list_swiper .swiper-pagination-bullet-active {
+  background-color: #AE57A4;
+}
+
+
+
+
+
+/* 看牙案例 */
+.case_swiper.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.case_swiper .swiper-slide {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.case_swiper .swiper-slide .case_flImg {
+  width: 48%;
+  text-align: center;
+  position: relative;
+}
+
+.case_swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.case_swiper .swiper-slide .case_flImg .case_text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: .2rem .5rem;
+  box-sizing: border-box;
+  background-color: #C07AB8;
+}
+
+.case_swiper .swiper-slide>h3 {
+  font-size: .7rem;
+  text-align: center;
+  color: #0072E3;
+  margin-bottom: .3rem;
+}
+
+
+.case_swiper .swiper-slide .case_flImg .case_text p {
+  font-size: .6rem;
+  line-height: 1rem;
+  text-align: left;
+}
+
+
+.case_swiper .swiper-slide .case_flImg .case_text p:nth-child(2n) {
+  color: #fafafa;
+  text-align: center;
+}
+
+
+.case_swiper .swiper-slide .case_frImg {
+  width: 48%;
+  text-align: center;
+}
+
+.case_swiper .swiper-slide .case_frImg img:first-child {
+  margin-bottom: .5rem;
+}
+
+
+
+.case_swiper .swiper-pagination-bullet {
+  width: 1rem;
+  height: .3rem;
+  border-radius: 0%;
+}
+
+
+.case_swiper .swiper-button-prev {
+  left: 5%;
+  color: #fff;
+  padding: 3% 2%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 3px;
+}
+
+
+.case_swiper .swiper-button-next {
+  right: 5%;
+  color: #fff;
+  padding: 3% 2%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 1rem !important;
+}
+
+
+.case_swiper .swiper-pagination-bullet-active {
+  background-color: #AE57A4;
+}
+
+
+.list_box>a {
+  background-color: #C07AB8;
+}
+
+
+/* 就诊机构路线 */
+#container {
+  width: 100%;
+  height: 15rem;
+}
+
+.map .content-window-card {
+  position: relative;
+  box-shadow: none;
+  bottom: 0;
+  left: 0;
+  width: auto;
+  padding: 0;
+}
+
+.map .content-window-card p {
+  height: 2rem;
+}
+
+.map .custom-info {
+  border: solid 1px silver;
+}
+
+.map div.info-top {
+  position: relative;
+  background: none repeat scroll 0 0 #F9F9F9;
+  border-bottom: 1px solid #CCC;
+  padding: .3rem 0rem;
+  box-sizing: border-box;
+}
+
+.map div.info-top h3 {
+  display: block;
+  color: #333333;
+  font-size: .7rem;
+  font-weight: bold;
+  line-height: 1rem;
+  padding: 0 .5rem;
+}
+
+.map div.info-top img {
+  position: absolute;
+  top: 0.3rem;
+  right: 0.3rem;
+  transition-duration: 0.25s;
+}
+
+.map div.info-top img:hover {
+  box-shadow: 0px 0px 5px #000;
+}
+
+.map div.info-middle {
+  font-size: .6rem;
+  padding: .5rem .3rem;
+  line-height: 1rem;
+  overflow: hidden;
+}
+
+.map div.info-bottom {
+  height: 0px;
+  width: 100%;
+  clear: both;
+  text-align: center;
+}
+
+.map div.info-bottom img {
+  display: block;
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  transform: translateX(-50%);
+
+
+}
+
+.map span {
+  margin-left: .3rem;
+  font-size: .6rem;
+}
+
+.map .info-middle img {
+  width: 5rem;
+  float: left;
+  margin-right: 6px;
+}
+
+
+.map_list {
+  width: 100%;
+  padding: .5rem;
+  box-sizing: border-box;
+  margin-top: 1rem;
+}
+
+.map_list li {
+  width: 100%;
+  margin-bottom: .5rem;
+  overflow: hidden;
+}
+
+.map_list li span {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  float: left;
+  margin-right: 1rem;
+  margin-top: .2rem;
+}
+
+.map_list li:first-child span {
+  background: url(../images/medical_team/map_tel.png)no-repeat center /100% 100%;
+}
+
+.map_list li:nth-child(2) span {
+  background: url(../images/medical_team/map_hospital.png)no-repeat center /100% 100%;
+}
+
+.map_list li:nth-child(3) span {
+  background: url(../images/medical_team/map_address.png)no-repeat center /100% 100%;
+}
+
+.map_list li:nth-child(4) span {
+  background: url(../images/medical_team/map_metro.png)no-repeat center /100% 100%;
+}
+
+.map_list li:last-child span {
+  background: url(../images/medical_team/map_transit.png)no-repeat center /100% 100%;
+}
+
+
+.map_list li h3 {
+  font-size: .73rem;
+  line-height: 1rem;
+  color: #0072E3;
+}
+
+.map_list li p {
+  font-size: .6rem;
+}
+
+.amap-logo {
+  bottom: 12px;
+}
+
+.amap-copyright {
+  display: none !important;
+}
+
+.amap-geolocation-con {
+  z-index: 151 !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* 在线预约 */
+.online_booking {
+  margin-top: .5rem;
+  background-color: #fff;
+  padding: 2% 5%;
+  box-sizing: border-box;
+}
+
+.online_booking h3 {
+  font-size: .85rem;
+  color: #AE57A4;
+}
+
+
+
+.online_booking .Online_box {
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.online_booking .Online_box .Online_text {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: .5rem;
+}
+
+.online_booking .Online_box .Online_fl,
+.online_booking .Online_box .Online_fr {
+  float: left;
+  width: 48.5%;
+  margin-bottom: .15rem;
+  margin-right: 3%;
+  padding: .5rem;
+  box-sizing: border-box;
+
+}
+
+.online_booking .Online_box .Online_fr {
+  float: right;
+  margin-right: 0%;
+}
+
+.online_booking .Online_box .Online_fr select {
+  box-sizing: border-box;
+  width: 100%;
+  height: 1.35rem;
+  line-height: 1.05rem;
+  padding: 0.2rem .5rem;
+  font-size: .7rem;
+  color: #666;
+  background: #f4f4f4;
+  border-radius: 5px;
+}
+
+.online_booking .Online_box .Online_fr select option {
+  line-height: 1.5rem;
+  font-size: .7rem;
+}
+
+.online_booking .Online_box div span {
+  display: block;
+  font-size: .75rem;
+  color: #333;
+  margin-bottom: .09rem;
+}
+
+.online_booking .Online_box div input {
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 1.4rem;
+  padding: 0 .5rem;
+  font-size: .7rem;
+  color: #666;
+  background: #f4f4f4;
+  border-radius: 5px;
+}
+
+.online_booking .Online_box .Online_but {
+  width: 100%;
+  padding: .5rem;
+  box-sizing: border-box;
+  float: left;
+}
+
+.online_booking .Online_box .Online_but textarea {
+  padding: 0.3rem .5rem;
+  width: 94%;
+  height: 3rem;
+  font-size: .7rem;
+  color: #666;
+  background: #f4f4f4;
+  border-radius: 5px;
+  margin-top: .5rem;
+}
+
+.Online_text i {
+  font-size: .75rem !important;
+  color: #ff0000 !important;
+}
+
+
+
+.Online_text>span {
+  padding: .5rem !important;
+  box-sizing: border-box !important;
+  font-size: .7rem !important;
+  color: #ff8800 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.index-form-btn {
+  padding-top: .5rem;
+  overflow: hidden;
+}
+
+.index-form-btn input:first-child {
+  margin-right: 3%;
+}
+
+
+
+.index-form-btn input {
+  float: left;
+  width: 48.5%;
+  line-height: 1.8rem;
+  height: 1.8rem;
+  text-align: center;
+  font-size: .75rem;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.index-form-btn .sub {
+  background: #00A3BA;
+  color: #fff;
+}
+
+.index-form-btn .reset {
+  border: 1px solid #ddd;
+  color: #333;
+  line-height: 1.8rem;
+}
+
+
+
+/* 适配平板 Pro */
+@media only screen and (min-width: 1024px) {
+  .map .content-window-card {
+    width: 15rem;
+  }
+}
+
+
+
+/* 适配平板 */
+@media only screen and (max-width: 768px) {
+  .map .content-window-card {
+    width: 15rem;
+  }
+}
+
+
+
+
+
+
+/* 适配 Galaxy S5 */
+@media only screen and (max-width: 360px) {
+
+  .map .content-window-card {
+    width: 16rem;
+  }
+}
+
+/* 适配 Photo 5s */
+@media only screen and (max-width: 320px) {
+  .map .content-window-card {
+    width: 12.5rem;
+  }
+}

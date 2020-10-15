@@ -1,0 +1,599 @@
+/* 头部 轮播图 */
+.header_swiper {
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+.header_swiper .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.header_swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.header_swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.top_swiper .swiper-pagination-bullet {
+  width: 1rem;
+  height: .3rem;
+  border-radius: 0%;
+}
+
+
+.top_swiper .swiper-button-prev {
+  left: 5%;
+  color: #fff;
+  padding: 3% 2%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, .3);
+
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 3px;
+}
+
+
+.top_swiper .swiper-button-next {
+  right: 5%;
+  color: #fff;
+  padding: 3% 2%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+
+  font-size: 1rem !important;
+
+}
+
+
+.top_swiper .swiper-pagination-bullet-active {
+  background-color: #AE57A4;
+
+}
+
+
+
+
+/* 子导航 */
+.subNav {
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  padding: .3rem 0rem;
+  box-sizing: border-box;
+}
+
+.subNav li {
+  width: 33.33%;
+  float: left;
+  padding: 2% 3%;
+  box-sizing: border-box;
+
+
+}
+
+.subNav a {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+
+.subNav li a img {
+  display: block;
+  width: 100%;
+  border-radius: .5rem;
+  box-shadow: 0px 0px 0.4rem 0.1rem #999;
+}
+
+
+/* 口腔常见问题 */
+.problem,
+.doctor_team,
+.case_center,
+.online_booking {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 2%;
+  padding: 2% 0;
+  box-sizing: border-box;
+}
+
+
+.tit {
+  width: 100%;
+  text-align: center;
+  margin: 2% auto;
+}
+
+.tit h1 {
+  font-size: 2rem;
+  color: #F0F0F0;
+  font-weight: bolder;
+  letter-spacing: 1rem;
+}
+
+.tit h3 {
+  display: block;
+  font-size: 1.2rem;
+  margin-top: -2rem;
+  letter-spacing: .3rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.tit h3 span {
+  color: #AE57A4;
+}
+
+.tit i {
+  display: block;
+  width: 8%;
+  height: 1rem;
+  margin: 2% auto 1%;
+  background: url(../images/Down_arrow.png)no-repeat center/100% 100%;
+}
+
+.tit p {
+  font-size: .75rem;
+  letter-spacing: .3rem;
+  font-weight: bolder;
+  color: #333;
+}
+
+
+.problem_list {
+  width: 100%;
+  padding: 0rem .2rem;
+  box-sizing: border-box;
+}
+
+
+
+
+.main-wt {
+  display: flex;
+}
+
+.main-wt li {
+  font-size: 0.7rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.3rem;
+  margin-right: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.main-wt li a {
+  color: #fff;
+}
+
+.bg1 {
+  background: #cc9999;
+  width: 30%;
+}
+
+.bg2 {
+  background: #99ccff;
+  width: 40%;
+}
+
+.bg3 {
+  background: #cc99cc;
+  width: 50%;
+}
+
+.bg4 {
+  background: #99cc99;
+  width: 40%;
+}
+
+.bg5 {
+  background: #ccccff;
+  width: 40%;
+}
+
+.bg6 {
+  background: #f4d7a0;
+  width: 30%;
+}
+
+.problem_list .main-wt:first-child .bg3 {
+  margin-right: 0;
+}
+
+.problem_list .main-wt:nth-child(2) .bg1 {
+  margin-right: 0;
+}
+
+.problem_list .main-wt:last-child .bg2 {
+  margin-right: 0;
+}
+
+
+
+
+/* 国际化医疗标准 */
+.index-about-slider {
+  padding: 0.5rem 0;
+  box-sizing: border-box;
+}
+
+.index-about-slider .item {
+  margin: 0 .04rem;
+  width: 15rem;
+  box-shadow: 0rem 0rem .3rem .1rem #999;
+  border-radius: 0.5rem;
+  margin: 0 0.5rem;
+  overflow: hidden;
+}
+
+.index-about-slider .item img {
+  display: block;
+  width: 100%;
+}
+
+.index-about-content {
+  padding: .5rem 8%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.index-about-content p {
+  font-size: .73rem;
+  text-indent: 2em;
+  margin-bottom: 3%;
+  text-align: left;
+}
+
+.index-about-content p span {
+  font-weight: bolder;
+  font-size: .8rem;
+  color: #AE57A4;
+}
+
+
+.index-about-content a {
+  font-size: .75rem;
+  color: #AE57A4;
+  padding: .15rem .5rem;
+  box-sizing: border-box;
+  border-radius: .3rem;
+  border: 1px solid #a4c538;
+}
+
+/* 优贝专业医师团队 */
+.index-doctor-team-slider {
+  margin-top: 5%;
+}
+
+.index-doctor-team-slider .swiper-slide {
+  width: 100%;
+  padding: .5rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.index-doctor-team-slider .swiper-slide img {
+  display: block;
+  float: left;
+  width: 40%;
+  margin-top: 2%;
+  border-radius: .5rem;
+}
+
+.index-doctor-team-slider .swiper-slide .team_box {
+  width: 55%;
+  float: right;
+}
+
+.index-doctor-team-slider .swiper-slide .team_box h3 {
+  font-size: .8rem;
+  color: #333;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.index-doctor-team-slider .swiper-slide .team_box h3 span {
+  font-size: .7rem;
+  color: #999;
+}
+
+
+.index-doctor-team-slider .swiper-slide .team_box h5 {
+  font-size: .7rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  color: #555;
+}
+
+
+
+.index-doctor-team-slider .swiper-slide .team_box p {
+  font-size: .7rem;
+  height: 1.3rem;
+  line-height: 1.3rem;
+  color: #555;
+}
+
+.team_text {
+  width: 100%;
+  float: left;
+  padding: .5rem;
+  box-sizing: border-box;
+}
+
+.index-doctor-team-slider .swiper-slide .team_text strong {
+  font-size: .75rem;
+  line-height: 1.5rem;
+  color: #a4c538;
+  display: block;
+}
+
+.index-doctor-team-slider .swiper-slide .team_text p {
+  font-size: .7rem;
+  line-height: 1rem;
+  text-indent: 2em;
+  color: #333;
+}
+
+/* 案例中心 */
+
+
+#case_swiper .swiper-slide {
+  width: 100%;
+  padding: 1rem 2rem 1.5rem;
+  box-sizing: border-box;
+}
+
+
+#case_swiper .swiper-slide .case_box {
+  width: 100%;
+  box-shadow: 0rem 0rem .3rem .2rem #999;
+  padding: .5rem 0rem 0rem;
+  box-sizing: border-box;
+}
+
+
+#case_swiper .swiper-slide .case_box h3 {
+  font-size: .85rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #66B3FF;
+  margin-bottom: .5rem;
+
+}
+
+#case_swiper .swiper-slide .case_box p {
+  font-size: .7rem;
+  line-height: 1.2rem;
+  margin-left: 5%;
+}
+
+#case_swiper .swiper-slide .case_box img {
+  display: block;
+  width: 90%;
+  margin: .5rem auto;
+}
+
+
+#case_swiper .swiper-slide .case_box .case_btn {
+  width: 100%;
+  display: flex;
+  background-color: #ddd;
+}
+
+#case_swiper .swiper-slide .case_box .case_btn a {
+  flex: 1;
+  text-align: center;
+  font-size: .75rem;
+  line-height: 1.5rem;
+  color: #333;
+
+}
+
+#case_swiper .swiper-slide .case_box .case_btn a:first-child {
+  border-right: 2px solid #fff;
+  color: #00a3ba;
+}
+
+#case_swiper .swiper-pagination {
+  margin-bottom: -.3rem;
+}
+
+
+/* 在线预约 */
+.online_booking {
+  padding: 2% 5%;
+  box-sizing: border-box;
+}
+
+.online_booking h3 {
+  font-size: .85rem;
+  color: #AE57A4;
+}
+
+
+
+.online_booking .Online_box {
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.online_booking .Online_box .Online_text {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: .5rem;
+}
+
+.online_booking .Online_box .Online_fl,
+.online_booking .Online_box .Online_fr {
+  float: left;
+  width: 48.5%;
+  margin-bottom: .15rem;
+  margin-right: 3%;
+  padding: .5rem;
+  box-sizing: border-box;
+
+}
+
+.online_booking .Online_box .Online_fr {
+  float: right;
+  margin-right: 0%;
+}
+
+.online_booking .Online_box .Online_fr select {
+  box-sizing: border-box;
+  width: 100%;
+  height: 1.35rem;
+  line-height: 1.05rem;
+  padding: 0.2rem .5rem;
+  font-size: .7rem;
+  color: #666;
+  background: #f4f4f4;
+  border-radius: 5px;
+}
+
+.online_booking .Online_box .Online_fr select option {
+  line-height: 1.5rem;
+  font-size: .7rem;
+}
+
+.online_booking .Online_box div span {
+  display: block;
+  font-size: .75rem;
+  color: #333;
+  margin-bottom: .09rem;
+}
+
+.online_booking .Online_box div input {
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 1.4rem;
+  padding: 0 .5rem;
+  font-size: .7rem;
+  color: #666;
+  background: #f4f4f4;
+  border-radius: 5px;
+}
+
+.online_booking .Online_box .Online_but {
+  width: 100%;
+  padding: .5rem;
+  box-sizing: border-box;
+  float: left;
+}
+
+.online_booking .Online_box .Online_but textarea {
+  padding: 0.3rem .5rem;
+  width: 94%;
+  height: 3rem;
+  font-size: .7rem;
+  color: #666;
+  background: #f4f4f4;
+  border-radius: 5px;
+  margin-top: .5rem;
+}
+
+.Online_text i {
+  font-size: .75rem !important;
+  color: #ff0000 !important;
+}
+
+
+
+.Online_text>span {
+  padding: .5rem !important;
+  box-sizing: border-box !important;
+  font-size: .7rem !important;
+  color: #ff8800 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.index-form-btn {
+  padding-top: .5rem;
+  overflow: hidden;
+}
+
+.index-form-btn input:first-child {
+  margin-right: 3%;
+}
+
+
+
+.index-form-btn input {
+  float: left;
+  width: 48.5%;
+  line-height: 1.8rem;
+  height: 1.8rem;
+  text-align: center;
+  font-size: .75rem;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.index-form-btn .sub {
+  background: #00A3BA;
+  color: #fff;
+}
+
+.index-form-btn .reset {
+  border: 1px solid #ddd;
+  color: #333;
+  line-height: 1.8rem;
+}
+
+
+@media screen and (min-width: 768px) {
+  #case_swiper .swiper-pagination {
+    margin-bottom: 0rem;
+  }
+}

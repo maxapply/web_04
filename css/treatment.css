@@ -1,0 +1,629 @@
+  /* 头部 轮播图 */
+  .header_swiper {
+    width: 100%;
+    margin-top: 2.5rem;
+  }
+
+  .header_swiper .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .header_swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .header_swiper .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+  #top_swiper .swiper-pagination-bullet {
+    width: 1rem;
+    height: .3rem;
+    border-radius: 0%;
+  }
+
+
+  #top_swiper .swiper-button-prev {
+    left: 5%;
+    color: #fff;
+    padding: 3% 2%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .3);
+  }
+
+  .swiper-container-horizontal>.swiper-pagination-bullets,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 3px;
+  }
+
+
+  #top_swiper .swiper-button-next {
+    right: 5%;
+    color: #fff;
+    padding: 3% 2%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .3);
+  }
+
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    font-size: 1rem !important;
+  }
+
+
+  #top_swiper .swiper-pagination-bullet-active {
+    background-color: #AE57A4;
+  }
+
+  .tit {
+    width: 100%;
+    text-align: center;
+  }
+
+  .tit h3 {
+    font-size: .8rem;
+    line-height: 1.5rem;
+    color: #333;
+  }
+
+  .tit h3 span {
+    font-size: .9rem;
+    color: #c24145;
+  }
+
+  /* 牙周病的症状你占了几个 */
+  .mbBox_01,
+  .mbBox_02,
+  .mbBox_03,
+  .mbBox_04,
+  .mbBox_05,
+  .mbBox_06,
+  .mbBox_07,
+  .mbBox_08 {
+    width: 100%;
+    padding: .5rem 0;
+    box-sizing: border-box;
+    margin-top: .5rem;
+    background-color: #f2f7ff;
+    text-align: center;
+  }
+
+  .mbBox_01List {
+    width: 90%;
+    background-color: #fff;
+    overflow: hidden;
+    margin: .5rem auto;
+    padding-bottom: .8rem;
+    box-sizing: border-box;
+  }
+
+  .mbBox_01List li {
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-left: 6.25%;
+    margin-top: .8rem;
+    border-radius: .3rem;
+    overflow: hidden;
+    box-shadow: 0rem 0rem .3rem .1rem #D2A2CC;
+  }
+
+  .mbBox_01List li img {
+    display: block;
+    width: 100%;
+  }
+
+  .mbBox_01List li p {
+    font-size: .75rem;
+    line-height: 1.3rem;
+    background-color: #C07AB8;
+    color: #fff;
+  }
+
+  .mbBox_01>p {
+    font-size: .75rem;
+    line-height: 1.3rem;
+    text-align: center;
+  }
+
+  .mbBox_01>a {
+    display: inline-block;
+    padding: .1rem 1rem;
+    font-size: .75rem;
+    line-height: 1.2rem;
+    border-radius: 1rem;
+    border: 2px solid #ff8800;
+    color: #ff8800;
+    background-color: #fff;
+    box-shadow: 0rem 0rem .5rem .1rem #FFCBB3;
+  }
+
+  .mbBox_01>a span,
+  .mbBox_05>a span,
+  .mbBox_06Btn>a span {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: middle;
+    background: url(../images/treatment/case.png)no-repeat center /100% 100%;
+    margin-right: .5rem;
+    margin-top: -.2rem;
+  }
+
+  /* 牙周病的危害有哪些 */
+  .mbBox_02,
+  .mbBox_04,
+  .mbBox_06,
+  .mbBox_08 {
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .mbBox_02>p {
+    font-size: .73rem;
+    line-height: 1.2rem;
+    text-indent: 2em;
+    text-align: left;
+    padding: .3rem 1rem;
+    box-sizing: border-box;
+  }
+
+  .mbBox_02List {
+    width: 100%;
+    padding: 0rem .5rem .5rem;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .mbBox_02List li {
+    width: 25%;
+    float: left;
+    margin-left: 6.25%;
+    margin-top: .8rem;
+    text-align: center;
+  }
+
+  .mbBox_02List li img {
+    display: block;
+    width: 100%;
+    margin-top: -.5rem;
+  }
+
+  .mbBox_02List li i {
+    width: .9rem;
+    height: .9rem;
+    line-height: .9rem;
+    font-size: .6rem;
+    display: block;
+    background: #ff5a2e;
+    color: #fff;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+
+  }
+
+  .mbBox_02List li p {
+    font-size: .7rem;
+    line-height: 1rem;
+    height: 1.9rem;
+    margin-top: .3rem;
+  }
+
+  .mbBox_02>a,
+  .mbBox_04>a,
+  .mbBox_05>a {
+    font-size: .73rem;
+    display: inline-block;
+    line-height: 1.2rem;
+    padding: .1rem .5rem;
+    color: #ff8800;
+    border: 1px solid #ff8800;
+    box-shadow: 0rem 0rem .5rem .1rem #FFCBB3;
+  }
+
+  /* 巩固松牙牙周病分型治疗 */
+  .mbBox_03Top {
+    width: 100%;
+    margin-top: .5rem;
+    display: flex;
+  }
+
+  .mbBox_03Top li {
+    font-size: .73rem;
+    height: 1.3rem;
+    line-height: 1.3rem;
+    flex: 1;
+    margin: 0rem .3rem;
+    color: #333;
+    background-color: #d0d0d0;
+  }
+
+  .mbBox_03Top li.on {
+    background-color: #8F4586;
+    color: #fff;
+    font-weight: bolder;
+    position: relative;
+  }
+
+  .mbBox_03Top li.on:before {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    bottom: -.8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border: .4rem solid transparent;
+    border-top-color: #8F4586;
+  }
+
+  .mbBox_03But {
+    width: 95%;
+    margin: .8rem auto 0rem;
+    padding: .3rem .5rem 2rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #EBD3E8;
+    position: relative;
+  }
+
+  .mbBox_03But img {
+    display: block;
+    width: 30%;
+    float: left;
+    border-radius: .3rem;
+  }
+
+  .mbBox_03But .mbBox_03Text {
+    width: 67%;
+    float: right;
+  }
+
+  .mbBox_03Text li {
+    width: 100%;
+    overflow: hidden;
+    margin-top: .2rem;
+  }
+
+  .mbBox_03Text li h4 {
+    width: 20%;
+    line-height: 1rem;
+    float: left;
+    color: #8F4586;
+    background: #FFF;
+    border-radius: 0.25rem;
+    text-align: center;
+    font-size: .7rem;
+  }
+
+  .mbBox_03Text li p {
+    float: right;
+    width: 75%;
+    font-size: .65rem;
+    line-height: 1rem;
+    text-align: left;
+    border-bottom: #FFF 0.05rem dashed;
+  }
+
+  .mbBox_03But>a {
+    position: absolute;
+    left: 50%;
+    bottom: .3rem;
+    transform: translateX(-50%);
+    display: inline-block;
+    font-size: .73rem;
+    line-height: 1.2rem;
+    padding: .1rem .5rem;
+    border-radius: .2rem;
+    color: #ff8800;
+    border: 1px solid #ff8800;
+    background-color: #fff;
+    box-shadow: 0rem 0rem .5rem .1rem #FFCBB3;
+  }
+
+  /* 优贝口腔 · 技术优势  */
+  .mbBox_04 img {
+    display: block;
+    width: 90%;
+    margin: .5rem auto;
+  }
+
+  .mbBox_04 ul {
+    width: 100%;
+    display: flex;
+  }
+
+  .mbBox_04 ul li {
+    flex: 1;
+    font-size: .7rem;
+    line-height: 1rem;
+    margin: 0 1rem;
+    box-sizing: border-box;
+  }
+
+  /* 治疗牙周需要多少钱？ */
+  .mbBox_05List {
+    width: 80%;
+    margin: .5rem auto 0;
+    position: relative;
+  }
+
+  .mbBox_05List img {
+    display: block;
+    width: 100%;
+  }
+
+  .mbBox_05List span {
+    font-size: .7rem;
+    width: 90%;
+    height: 1.3rem;
+    line-height: 1.3rem;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -.5rem;
+    padding: .1rem .5rem;
+    box-sizing: border-box;
+    background: #8F4586;
+    color: #fff;
+    text-align: center;
+  }
+
+  .mbBox_05But {
+    width: 90%;
+    margin: .8rem auto 0rem;
+  }
+
+  .mbBox_05But p {
+    font-size: .73rem;
+    line-height: 1.2rem;
+    text-align: left;
+    margin: .5rem 0;
+    overflow: hidden;
+  }
+
+  .mbBox_05But p span {
+    width: 35%;
+    display: block;
+    background: url(../images/treatment/mbBox_05_02.png)no-repeat center /100% 100%;
+    padding: 0rem 1rem 0rem .5rem;
+    box-sizing: border-box;
+    color: #fff;
+    float: left;
+    margin-top: .5rem;
+    text-align: center;
+  }
+
+  .mbBox_05But p i {
+    width: 62%;
+    float: right;
+  }
+
+  .mbBox_05>a {
+    background-color: #fff;
+  }
+
+  .mbBox_05>a span {
+    background: url(../images/treatment/th.png)no-repeat center /100% 100%;
+    margin-top: -.1rem;
+  }
+
+  /* 优贝口腔牙周治疗案例 */
+  #case_swiper {
+    width: 90%;
+    margin: .5rem auto;
+    border-radius: .5rem;
+    overflow: hidden;
+  }
+
+  #case_swiper .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+
+  #case_swiper .swiper-pagination-bullet {
+    width: 1rem;
+    height: .3rem;
+    border-radius: 0%;
+  }
+
+
+  #case_swiper .swiper-button-prev {
+    left: 5%;
+    color: #fff;
+    padding: 3% 2%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .3);
+  }
+
+  .swiper-container-horizontal>.swiper-pagination-bullets,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 3px;
+  }
+
+
+  #case_swiper .swiper-button-next {
+    right: 5%;
+    color: #fff;
+    padding: 3% 2%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .3);
+  }
+
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    font-size: 1rem !important;
+  }
+
+
+  #case_swiper .swiper-pagination-bullet-active {
+    background-color: #AE57A4;
+  }
+
+  .mbBox_06Btn {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+  }
+
+  .mbBox_06Btn a {
+    flex: 1;
+    font-size: .63rem;
+    line-height: 1.3rem;
+    margin: 0 1rem;
+    border: 1px solid #333;
+    border-radius: 1rem;
+  }
+
+  .mbBox_06Btn a span {
+    background: url(../images/treatment/rx.png)no-repeat center /100% 100%;
+  }
+
+
+  .mbBox_06Btn a:last-child {
+    background-color: #8F4586;
+    color: #fff;
+    border: 1px solid #AE57A4;
+
+  }
+
+
+
+
+  /* 优贝口腔牙周治疗专家 */
+  .mbBox_07 img {
+    display: block;
+    width: 100%;
+    margin: .5rem 0;
+  }
+
+  .mbBox_07Btn {
+    width: 80%;
+    margin: .5rem auto 0;
+    display: flex;
+    text-align: center;
+  }
+
+  .mbBox_07Btn a {
+    flex: 1;
+    font-size: .73rem;
+    line-height: 1.2rem;
+    padding: .1rem .5rem;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #AE57A4;
+    margin: 0rem .5rem;
+    border-radius: .3rem;
+  }
+
+  .mbBox_07Btn a:first-child {
+    animation: tilt 1s linear infinite;
+  }
+
+
+
+  @keyframes tilt {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    50% {
+      transform: rotate(-5deg);
+    }
+
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  .mbBox_07Btn a span {
+    display: inline-block;
+    width: 1.1rem;
+    height: 1.1rem;
+    vertical-align: middle;
+    margin-right: .5rem;
+    margin-top: -.1rem;
+    background: url(../images/teeth_whitening/lt.png)no-repeat center/100% 100%;
+  }
+
+  .mbBox_07Btn a:last-child span {
+    background: url(../images/plant/click.png)no-repeat center /100% 100%;
+  }
+
+  .mbBox_07Btn a:last-child {
+    animation: changeColor 1.5s linear infinite;
+  }
+
+  @keyframes changeColor {
+    0% {
+      background-color: #8F4586;
+    }
+
+    50% {
+      background-color: #ff0000;
+    }
+
+    100% {
+      background-color: #8F4586;
+    }
+  }
+
+  /* 你可能感兴趣的专题 */
+  .mbBox_08List {
+    width: 100%;
+    padding: .5rem;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .mbBox_08List li {
+    width: 48%;
+    float: left;
+    text-align: center;
+    margin-bottom: .5rem;
+    overflow: hidden;
+  }
+
+  .mbBox_08List li a {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .mbBox_08List li img {
+    display: block;
+    width: 100%;
+  }
+
+  .mbBox_08List li p {
+    font-size: .73rem;
+    line-height: 1.3rem;
+    color: #fff;
+    background-color: #9F4D95;
+  }
+
+  .mbBox_08List li:nth-child(2n) {
+    float: right;
+  }

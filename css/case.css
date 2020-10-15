@@ -1,0 +1,488 @@
+  /* 头部 轮播图 */
+  .header_swiper {
+    width: 100%;
+    margin-top: 2.5rem;
+  }
+
+  .header_swiper .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .header_swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .header_swiper .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+  .top_swiper .swiper-pagination-bullet {
+    width: 1rem;
+    height: .3rem;
+    border-radius: 0%;
+  }
+
+
+  .top_swiper .swiper-button-prev {
+    left: 5%;
+    color: #fff;
+    padding: 3% 2%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .3);
+
+
+  }
+
+  .swiper-container-horizontal>.swiper-pagination-bullets,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 3px;
+  }
+
+
+  .top_swiper .swiper-button-next {
+    right: 5%;
+    color: #fff;
+    padding: 3% 2%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .3);
+  }
+
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    font-size: 1rem !important;
+  }
+
+
+  .top_swiper .swiper-pagination-bullet-active {
+    background-color: #AE57A4;
+  }
+
+
+  .tit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tit span {
+    display: block;
+    font-size: 2rem;
+    color: #ccc;
+    margin-right: .5rem;
+  }
+
+  .tit .tit_fr h1 {
+    font-size: .75rem;
+    color: #AE57A4;
+    margin-bottom: .5px;
+    font-weight: bold;
+  }
+
+  .tit .tit_fr h3 {
+    font-size: .7rem;
+    color: #333;
+  }
+
+
+  /* 案例展示 */
+  .case,
+  .zzy,
+  .team,
+  .txfw,
+  .xjsb {
+    width: 100%;
+    background-color: #fff;
+    margin-top: 2%;
+    padding: 2% 0;
+    box-sizing: border-box;
+  }
+
+  .case>p {
+    font-size: .7rem;
+    line-height: 1.3rem;
+    text-indent: 2em;
+    padding: .3rem .5rem;
+    box-sizing: border-box;
+  }
+
+  .case .case_list {
+    width: 100%;
+    display: flex;
+    padding: .3rem .5rem;
+    box-sizing: border-box;
+  }
+
+  .case>img {
+    display: block;
+    width: 100%;
+    padding: .3rem;
+    box-sizing: border-box;
+  }
+
+  .case-slider {
+    width: 100%;
+    padding: .5rem 0 1.5rem;
+    box-sizing: border-box;
+  }
+
+
+
+  .case-slider .item {
+    width: 70%;
+    box-shadow: 0rem 0rem .3rem .1rem #999;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: 300ms;
+    transform: scale(0.8);
+    padding: .3rem .5rem;
+    box-sizing: border-box;
+  }
+
+
+
+  .item.swiper-slide>h3 {
+    font-size: .75rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #F75000;
+  }
+
+  .case-slider .item img {
+    display: block;
+    width: 100%;
+  }
+
+  .item.swiper-slide-active,
+  .item.swiper-slide-duplicate-active {
+    transform: scale(1);
+  }
+
+
+  .case-slider .item .case_fl {
+    width: 40%;
+    text-align: center;
+  }
+
+  .case-slider .item img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .case-slider .item a {
+    display: block;
+    font-size: .7rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    color: #fff;
+    background-color: #000;
+    border-radius: .5rem;
+    margin-top: .3rem;
+  }
+
+
+  .case-slider .item a:last-child {
+    background-color: #ea5514;
+  }
+
+  .case-slider .item .case_fr {
+    width: 57%;
+    overflow: hidden;
+    margin-top: .5rem;
+  }
+
+  .case-slider .item .case_fr p {
+    font-size: .7rem;
+    line-height: 1rem;
+  }
+
+
+  .case-slider .item .case_fr p strong {
+    color: #0080FF;
+  }
+
+  .case-slider .item .case_fr p.case_p {
+    text-indent: 2em;
+  }
+
+  .case-slider .item .case_img {
+    width: 100%;
+    margin-top: .3rem;
+  }
+
+  .case-slider .item .case_img img {
+    display: block;
+    width: 45%;
+    float: left;
+    border-radius: .5rem;
+  }
+
+  .case-slider .item .case_img img:last-child {
+    float: right;
+  }
+
+
+  .case-slider>.swiper-pagination-bullets {
+    bottom: 0px !important;
+  }
+
+
+  /* 牙齿问题 */
+  .problem {
+    width: 100%;
+    overflow: hidden;
+    background-color: #eeeeee;
+    padding: .5rem .3rem;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .problem>span {
+    float: left;
+    display: block;
+    width: 15%;
+    height: 3rem;
+    background: url(../images/case/problem_span.png)no-repeat center /100% 100%;
+  }
+
+  .problem ul {
+    width: 83%;
+    margin: 0 auto;
+    overflow: hidden;
+    float: right;
+  }
+
+  .problem ul li {
+    width: 23.2%;
+    height: 1.3rem;
+    border: 1px solid #e3e3e3;
+    text-align: center;
+    line-height: 1.3rem;
+    float: left;
+    margin-right: 1%;
+    border-radius: .3rem;
+    font-size: .7rem;
+
+  }
+
+  .problem ul li a {
+    color: #fff;
+  }
+
+  .problem ul li:first-child {
+    background-color: #ff8800;
+  }
+
+  .problem ul li:nth-child(2) {
+    background-color: #FF77FF;
+  }
+
+  .problem ul li:nth-child(3) {
+    background-color: #00CACA;
+  }
+
+  .problem ul li:nth-child(4) {
+    background-color: #FFD306;
+  }
+
+  .problem ul li:nth-child(5) {
+    background-color: #46A3FF;
+  }
+
+  .problem ul li:nth-child(6) {
+    background-color: #FF79BC;
+  }
+
+  .problem ul li:nth-child(7) {
+    background-color: #73BF00;
+  }
+
+  .problem ul li:last-child {
+    background-color: #019858;
+  }
+
+  .problem ul li:nth-child(-n+4) {
+    margin-bottom: .2rem;
+  }
+
+  .problem ul li:nth-child(4),
+  .problem ul li:nth-child(8) {
+    margin-right: 0;
+  }
+
+  /* 种植牙 */
+  .zzy {
+    background-color: #EBD3E8;
+  }
+
+  .zzy .tit span {
+    color: #fff;
+  }
+
+  .zzy>h2 {
+    width: 100%;
+    text-align: center;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    font-size: .7rem;
+    background: url(../images/case/tit_h2.png) no-repeat center/ 100% 100%;
+    color: #333;
+  }
+
+  .zzy .zzy_box {
+    width: 100%;
+    margin-top: .5rem;
+    display: flex;
+  }
+
+  .zzy .zzy_box li {
+    flex: 1;
+    overflow: hidden;
+    background-color: #5A5AAD;
+    margin: 0rem .3rem;
+    border-radius: .3rem;
+    overflow: hidden;
+  }
+
+  .zzy .zzy_box li img {
+    display: block;
+    width: 80%;
+    float: left;
+  }
+
+  .zzy .zzy_box li h3 {
+    text-align: center;
+    font-size: .7rem;
+    line-height: 1.3rem;
+    color: #fff;
+  }
+
+  .con_btn {
+    width: 100%;
+    padding: .3rem .5rem;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .con_btn a {
+    font-size: .75rem;
+    line-height: 1.8rem;
+    display: block;
+    float: left;
+    width: 48%;
+    text-align: center;
+    background-color: #2894FF;
+    padding: .5rem 0;
+    box-sizing: border-box;
+    color: #fff;
+  }
+
+  .con_btn a span {
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    height: 1.5rem;
+    background: url(../images/case/tel.png)no-repeat center /100% 100%;
+  }
+
+  .con_btn a:last-child {
+    float: right;
+    background-color: #ff8800;
+  }
+
+  .con_btn a:last-child span {
+    background: url(../images/case/yhj.png)no-repeat center /100% 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* 知名专家团队 */
+  .team img {
+    display: block;
+    width: 100%;
+  }
+
+  .team>p {
+    font-size: .7rem;
+    line-height: 1.3rem;
+    text-indent: 2em;
+    padding: .3rem .5rem;
+    box-sizing: border-box;
+  }
+
+  /* 贴心服务 */
+  .txfw_box {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .txfw_box li {
+    width: 100%;
+    padding: 10% 24% 10% 28%;
+    box-sizing: border-box;
+  }
+
+  .txfw_box li:first-child {
+    background: url(../images/case/txfw_box_01.png)no-repeat center /100% 100%
+  }
+
+  .txfw_box li:nth-child(2) {
+    padding: 10% 27% 10% 36%;
+    background: url(../images/case/txfw_box_02.png)no-repeat center /100% 100%
+  }
+
+  .txfw_box li:last-child {
+    background: url(../images/case/txfw_box_03.png)no-repeat center /100% 100%
+  }
+
+
+
+  .txfw_box li h1 {
+    font-size: .75rem;
+    color: #ff8800;
+  }
+
+  .txfw_box li p {
+    font-size: .7rem;
+    line-height: 1rem;
+  }
+
+  /* 国外先进设备 */
+  .xjsb>a {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: .5rem;
+  }
+
+  .xjsb>a>img {
+    display: block;
+    width: 98%;
+    margin: 0 auto;
+  }

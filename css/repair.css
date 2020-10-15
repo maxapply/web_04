@@ -1,0 +1,735 @@
+/* 头部 轮播图 */
+.header_swiper {
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+.header_swiper .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.header_swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.header_swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.top_swiper .swiper-pagination-bullet {
+  width: 1rem;
+  height: .3rem;
+  border-radius: 0%;
+}
+
+
+.top_swiper .swiper-button-prev {
+  left: 5%;
+  color: #fff;
+  padding: 3% 2%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, .3);
+
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 3px;
+}
+
+
+.top_swiper .swiper-button-next {
+  right: 5%;
+  color: #fff;
+  padding: 3% 2%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+
+  font-size: 1rem !important;
+
+}
+
+
+.top_swiper .swiper-pagination-bullet-active {
+  background-color: #AE57A4;
+
+}
+
+/* 这些牙齿症状还在困扰着你吗？ */
+.mbBox_01,
+.mbBox_02,
+.mbBox_03,
+.mbBox_04,
+.mbBox_05,
+.mbBox_06,
+.mbBox_07 {
+  width: 100%;
+  padding: .5rem 0rem;
+  box-sizing: border-box;
+  margin-top: .5rem;
+  background-color: #eaf3f3;
+}
+
+.tit {
+  width: 100%;
+  text-align: center;
+}
+
+.tit h3 {
+  font-size: .8rem;
+  line-height: 1.5rem;
+}
+
+.tit h3 span {
+  display: inline-block;
+  width: 1.3rem;
+  height: 1.8rem;
+  background: url(../images/repair/tit.png)no-repeat center / 100% 100%;
+  vertical-align: middle;
+  margin-top: -.2rem;
+}
+
+.tit p {
+  font-size: .7rem;
+  text-align: center;
+  color: #666;
+}
+
+.mbBox_01List {
+  width: 100%;
+  margin-top: .5rem;
+  display: flex;
+
+}
+
+.mbBox_01List li {
+  flex: 1;
+  margin: 0 .25rem;
+  text-align: center;
+}
+
+.mbBox_01List li img {
+  display: block;
+  width: 100%;
+  border-radius: .3rem;
+}
+
+.mbBox_01List li h3 {
+  font-size: .7rem;
+  line-height: 1.2rem;
+  color: #555;
+}
+
+
+
+.info {
+  width: 100%;
+  padding: .3rem .5rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #eaf3f3;
+  position: relative;
+}
+
+.info img {
+  display: block;
+  width: 35%;
+  float: right;
+}
+
+.info .info_text {
+  width: 50%;
+  float: left;
+  padding: .3rem .5rem;
+  box-sizing: border-box;
+  background-color: #ff8800;
+  border-radius: .5rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.info .info_text:after {
+  position: absolute;
+  content: '';
+  right: -.6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: .4rem solid transparent;
+  border-left: .6rem solid #ff8800;
+  border-bottom: .4rem solid transparent;
+}
+
+.info .info_text p {
+  font-size: .73rem;
+  text-indent: 2rem;
+  line-height: 1.1rem;
+  color: #fff;
+}
+
+.mbBox_btn {
+  width: 100%;
+  text-align: center;
+  margin: .3rem 0 0;
+}
+
+.mbBox_btn a {
+  font-size: .6rem;
+  display: inline-block;
+  padding: .2rem .5rem;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border: 2px solid #7E3D76;
+  color: #fff;
+  background-color: #AE57A4;
+  animation: btnScale 2s linear infinite;
+  border-radius: .3rem;
+  box-shadow: 0rem 0rem .3rem .1rem #999;
+}
+
+.mbBox_btn a span {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background: url(../images/repair/zx.png)no-repeat center /100% 100%;
+  vertical-align: middle;
+  margin-right: .5rem;
+  margin-top: -.2rem;
+}
+
+@keyframes btnScale {
+  0% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+
+  }
+}
+
+
+/* 牙齿出现这些问题怎么办 */
+.mbBox_02,
+.mbBox_06 {
+  background-color: #fff;
+}
+
+.mbBox_02List {
+  width: 100%;
+  padding: .5rem 10%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.mbBox_02List img {
+  display: block;
+  float: left;
+  width: 40%;
+}
+
+.mbBox_02List img:nth-child(-n+2) {
+  margin-bottom: 1rem;
+}
+
+.mbBox_02List img:nth-child(2n) {
+  float: right;
+}
+
+.mbBox_02Btn {
+  width: 100%;
+  display: flex;
+}
+
+
+
+.mbBox_02Btn a {
+  flex: 1;
+  font-size: .73rem;
+  line-height: 1.5rem;
+  margin: 0rem 1rem;
+  text-align: center;
+  position: relative;
+  background: #fff;
+  border-style: none;
+  color: #333;
+  letter-spacing: 3px;
+  font-family: 'Lato';
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  padding: 0px;
+  overflow: hidden;
+  transition: all .5s;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
+  border-radius: .3rem;
+  border: 1px solid #9F4D95;
+  animation: mymove .8s infinite;
+}
+
+.mbBox_02Btn a i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.1rem;
+  height: 1.1rem;
+  background: url(../images/repair/dh.png)no-repeat center /100% 100%;
+}
+
+.mbBox_02Btn a:last-child i {
+  background: url(../images/repair/kf.png)no-repeat center /100% 100%;
+
+}
+
+.mbBox_02Btn a span {
+  position: absolute;
+  display: block;
+}
+
+.mbBox_02Btn a span:nth-child(1) {
+  height: .2rem;
+  width: 100%;
+  top: 0px;
+  left: -100%x;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), #9F4D95);
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 1px;
+  animation: span1 2s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes span1 {
+  0% {
+    left: -200px
+  }
+
+  100% {
+    left: 200px;
+  }
+}
+
+.mbBox_02Btn a span:nth-child(2) {
+  height: 1.3rem;
+  width: .2rem;
+  top: -1.3rem;
+  right: 0px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #9F4D95);
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px;
+  animation: span2 2s linear infinite;
+  animation-delay: 2s;
+}
+
+@keyframes span2 {
+  0% {
+    top: -1.3rem;
+    ;
+  }
+
+  100% {
+    top: 1.3rem;
+
+  }
+}
+
+.mbBox_02Btn a span:nth-child(3) {
+  height: .2rem;
+  width: 100%;
+  right: -100%;
+  bottom: 0px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), #9F4D95);
+  border-top-left-radius: 1px;
+  border-bottom-left-radius: 1px;
+  animation: span3 2s linear infinite;
+  animation-delay: 3s;
+}
+
+@keyframes span3 {
+  0% {
+    right: -100%;
+  }
+
+  100% {
+    right: 100%;
+  }
+}
+
+.mbBox_02Btn a span:nth-child(4) {
+  height: 1.3rem;
+  width: .2rem;
+  bottom: -1.3rem;
+  left: 0px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0), #9F4D95);
+  border-top-right-radius: 1px;
+  border-top-left-radius: 1px;
+  animation: span4 2s linear infinite;
+  animation-delay: 4s;
+}
+
+@keyframes span4 {
+  0% {
+    bottom: -1.3rem;
+  }
+
+  100% {
+    bottom: 1.3rem;
+  }
+}
+
+
+@keyframes mymove {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-3deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* 烤瓷牙种类繁多 */
+.mbBox_03 {
+  text-align: center;
+}
+
+.mbBox_03List {
+  width: 100%;
+  padding: 0rem .3rem;
+  box-sizing: border-box;
+}
+
+.mbBox_03List li {
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  position: relative;
+  padding: .3rem;
+  box-sizing: border-box;
+  margin-top: .5rem;
+}
+
+.mbBox_03List li .mbBox_03Fl {
+  width: 35%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.mbBox_03List li .mbBox_03Fl img {
+  display: block;
+  width: 100%;
+}
+
+.mbBox_03List li .mbBox_03Fr {
+  width: 65%;
+  float: right;
+  padding: .3rem .5rem;
+  box-sizing: border-box;
+}
+
+.mbBox_03List li .mbBox_03Fr h1 {
+  font-size: .73rem;
+  text-align: center;
+  line-height: 1.3rem;
+}
+
+.mbBox_03List li .mbBox_03Fr p {
+  font-size: .65rem;
+  line-height: 1rem;
+  text-align: left;
+}
+
+.mbBox_03List li .mbBox_03Fr p strong {
+  font-size: .7rem;
+  color: #ff8800;
+}
+
+.mbBox_03>a {
+  display: inline-block;
+  padding: .1rem .5rem;
+  box-sizing: border-box;
+  text-align: center;
+  color: #2a75e9;
+  font-size: .73rem;
+  line-height: 1.3rem;
+  border: 1px solid #2a75e9;
+  box-shadow: .2rem .2rem 0px #2a75e9;
+  background: #fff;
+  margin: .5rem auto 0;
+}
+
+.mbBox_04 {
+  background-color: #fff;
+  text-align: center;
+}
+
+.mbBox_04List,
+.mbBox_07List {
+  width: 100%;
+  padding: .5rem 1rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.mbBox_07List a,
+.mbBox_04List a {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.mbBox_04List li,
+.mbBox_07List li {
+  width: 45%;
+  float: left;
+  text-align: center;
+  margin-bottom: .5rem;
+  border-radius: .5rem;
+  overflow: hidden;
+}
+
+.mbBox_04List li img,
+.mbBox_07List li img {
+  display: block;
+  width: 100%;
+}
+
+.mbBox_04List li p,
+.mbBox_07List li p {
+  font-size: .73rem;
+  line-height: 1.3rem;
+  color: #fff;
+  background-color: #9F4D95;
+}
+
+.mbBox_04List li:nth-child(2n),
+.mbBox_07List li:nth-child(2n) {
+  float: right;
+}
+
+.mbBox_04Btn {
+  width: 100%;
+  height: 2rem;
+}
+
+.mbBox_04Btn>a {
+  font-family: 'Play', sans-serif;
+  font-size: .73rem;
+  background: transparent;
+  display: inline-block;
+  padding: .1rem .5rem;
+  border-radius: .3rem;
+  color: #fff;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  transition: 500ms ease-in-out;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  animation: myMbBox_04Btn 3s linear infinite;
+}
+
+@keyframes myMbBox_04Btn {
+  0% {
+    padding: .2rem .7rem;
+    background: #777;
+    border: 1px solid #777;
+  }
+
+  50% {
+    padding: .3rem .8rem;
+    background: #777;
+    border: 2px solid #777;
+    border: none;
+  }
+
+  100% {
+    padding: .2rem .7rem;
+    background: #777;
+    border: 1px solid #777;
+  }
+}
+
+
+
+
+.mbBox_04Btn>a span {
+  color: transparent;
+  transition: 500ms;
+  margin-left: -2rem;
+  animation: myMbBox_04Span 3s linear infinite;
+
+}
+
+@keyframes myMbBox_04Span {
+  0% {}
+
+  50% {
+    color: #fff;
+    margin-left: 0;
+  }
+
+  100% {}
+}
+
+.mbBox_05List {
+  width: 100%;
+  text-align: center;
+  padding: .5rem 0rem;
+  box-sizing: border-box;
+}
+
+.mbBox_05List img {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.mbBox_05List ul {
+  width: 100%;
+  display: flex;
+}
+
+.mbBox_05List ul li {
+  flex: 1;
+  margin: .3rem 0;
+}
+
+.mbBox_05List ul li p {
+  font-size: .73rem;
+  line-height: 1rem;
+}
+
+/* 美齿修复医生 定制你的专属笑容 */
+.mbBox_06 img {
+  display: block;
+  width: 100%;
+  margin: .3rem 0;
+}
+
+.mbBox_06Btn {
+  width: 80%;
+  margin: .5rem auto 0;
+  display: flex;
+  text-align: center;
+}
+
+.mbBox_06Btn a {
+  flex: 1;
+  font-size: .73rem;
+  line-height: 1.2rem;
+  padding: .1rem .5rem;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #AE57A4;
+  margin: 0rem .5rem;
+  border-radius: .3rem;
+}
+
+.mbBox_06Btn a:first-child {
+  animation: tilt 1s linear infinite;
+}
+
+
+
+@keyframes tilt {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+
+
+.mbBox_06Btn a span {
+  display: inline-block;
+  width: 1.1rem;
+  height: 1.1rem;
+  vertical-align: middle;
+  margin-right: .5rem;
+  margin-top: -.1rem;
+  background: url(../images/teeth_whitening/lt.png)no-repeat center/100% 100%;
+}
+
+.mbBox_06Btn a:last-child span {
+  background: url(../images/plant/click.png)no-repeat center /100% 100%;
+}
+
+.mbBox_06Btn a:last-child {
+  animation: changeColor 1.5s linear infinite;
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: #8F4586;
+  }
+
+  50% {
+    background-color: #ff0000;
+  }
+
+  100% {
+    background-color: #8F4586;
+  }
+}
+
+
+/* 你可能感兴趣的专题 */
+.mbBox_07List {
+  padding: .5rem;
+}
+
+.mbBox_07List li {
+  width: 48%;
+  border-radius: 0;
+}

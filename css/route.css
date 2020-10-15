@@ -1,0 +1,811 @@
+  /* 头部 轮播图 */
+  .header_swiper {
+    width: 100%;
+    margin-top: 2.5rem;
+  }
+
+  .header_swiper .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .header_swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .header_swiper .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+  .top_swiper .swiper-pagination-bullet {
+    width: 1rem;
+    height: .3rem;
+    border-radius: 0%;
+  }
+
+
+  .top_swiper .swiper-button-prev {
+    left: 5%;
+    color: #fff;
+    padding: 3% 2%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .3);
+
+
+  }
+
+  .swiper-container-horizontal>.swiper-pagination-bullets,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 3px;
+  }
+
+
+  .top_swiper .swiper-button-next {
+    right: 5%;
+    color: #fff;
+    padding: 3% 2%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .3);
+  }
+
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    font-size: 1rem !important;
+  }
+
+
+  .top_swiper .swiper-pagination-bullet-active {
+    background-color: #AE57A4;
+  }
+
+
+
+
+  /* 地图 */
+  .map,
+  .route_box,
+  .chat,
+  .online_booking,
+  .case_box {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 1rem .5rem;
+    box-sizing: border-box;
+    margin-top: .5rem;
+  }
+
+  .amap-overviewcontrol {
+    z-index: 110;
+  }
+
+  .amap-logo,
+  .amap-copyright {
+    display: none !important;
+  }
+
+  #container {
+    width: 95%;
+    height: 15rem;
+    margin: 0 auto;
+    border-radius: .5rem;
+    box-shadow: 0rem 0rem .5rem .1rem #999;
+  }
+
+  .map .navigation {
+    position: absolute;
+    bottom: 10%;
+    left: 3%;
+    padding: .2rem;
+    box-sizing: border-box;
+    /* background-color: #66B3FF; */
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 111;
+    border-radius: .5rem;
+    overflow: hidden;
+    border: 1.5px solid #2894FF
+  }
+
+  .map .navigation span {
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .3rem;
+    background: url(../images/route/navigation.png) no-repeat center /100% 100%;
+    border-radius: .3rem;
+    float: left;
+    margin-top: .3rem;
+  }
+
+  .map .navigation .map_text {
+    float: left;
+    margin-right: .15rem;
+  }
+
+  .map .navigation h3 {
+    font-size: .75rem;
+    color: #fff;
+    text-align: center;
+  }
+
+  .map .content-window-card {
+    position: relative;
+    box-shadow: none;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    padding: 0;
+  }
+
+  .amap-controls .amap-toolbar.amap-touch-toolbar {
+    left: -8px;
+    bottom: 0%;
+  }
+
+  .amap-controls .amap-toolbar.amap-touch-toolbar {
+    bottom: 30% !important;
+
+
+  }
+
+
+
+  .amap-touch-toolbar .amap-zoomcontrol {
+    width: 22px;
+    bottom: 0%;
+    z-index: 6;
+  }
+
+  .map .content-window-card p {
+    height: 2rem;
+  }
+
+  .map .custom-info {
+    border: solid 1px silver;
+  }
+
+  .map div.info-top {
+    position: relative;
+    background: none repeat scroll 0 0 #F9F9F9;
+    border-bottom: 1px solid #CCC;
+    padding: .3rem 0rem;
+    box-sizing: border-box;
+  }
+
+  .map div.info-top h3 {
+    display: block;
+    color: #333333;
+    font-size: .7rem;
+    font-weight: bold;
+    line-height: 1rem;
+    padding: 0 .5rem;
+  }
+
+  .map div.info-top img {
+    position: absolute;
+    top: 0.3rem;
+    right: 0.3rem;
+    transition-duration: 0.25s;
+  }
+
+  .map div.info-top img:hover {
+    box-shadow: 0px 0px 5px #000;
+  }
+
+  .map div.info-middle {
+    font-size: .6rem;
+    padding: .5rem .3rem;
+    line-height: 1rem;
+    overflow: hidden;
+  }
+
+  .map div.info-bottom {
+    height: 0px;
+    width: 100%;
+    clear: both;
+    text-align: center;
+  }
+
+  .map div.info-bottom img {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+  }
+
+  .map span {
+    margin-left: .3rem;
+    font-size: .6rem;
+  }
+
+  .map .info-middle img {
+    width: 5rem;
+    float: left;
+    margin-right: 6px;
+  }
+
+
+  /* 交通路线 */
+  .tit {
+    width: 100%;
+    text-align: center;
+  }
+
+  .tit h3 {
+    font-size: .8rem;
+    line-height: 1.5rem;
+    color: #AE57A4;
+  }
+
+  .tit h3 span {
+    display: block;
+    width: 100%;
+    height: .3rem;
+    border-bottom: 1px solid #e1e8e6;
+    position: relative;
+  }
+
+  .tit h3 span small {
+    font-size: 0.7rem;
+    color: #bfbfbf;
+    line-height: 1.2rem;
+    position: absolute;
+    top: -.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    font-weight: normal;
+    padding: 0 .5rem;
+    text-transform: capitalize;
+  }
+
+
+
+  .route_box .route_list {
+    width: 100%;
+    margin: .8rem auto;
+  }
+
+  .route_box .route_list li {
+    padding: .3rem .5rem;
+    box-sizing: border-box;
+  }
+
+
+
+  .route_box .route_list li span {
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background: #B766AD;
+    padding: .2rem;
+    box-sizing: border-box;
+    float: left;
+    margin-right: .5rem;
+    margin-top: .2rem;
+  }
+
+  .route_box .route_list li span img {
+    display: block;
+    width: 100%;
+  }
+
+  .route_box .route_list li h3 {
+    font-size: .75rem;
+    line-height: 1rem;
+    color: #5A5AAD;
+  }
+
+  .route_box .route_list li p {
+    font-size: .7rem;
+    line-height: 1rem;
+  }
+
+  /* 有问必答 */
+  .chatTop {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .chatTop span {
+    display: block;
+    width: 2.5rem;
+    padding-right: .5rem;
+    box-sizing: border-box;
+    border-right: 2px solid #999;
+    float: left;
+  }
+
+  .chatTop span img {
+    display: block;
+    width: 100%;
+  }
+
+  .chatTop ul {
+    width: 85%;
+    overflow: hidden;
+    float: right;
+  }
+
+  .chatTop ul li {
+    width: 50%;
+    float: left;
+    text-align: center;
+  }
+
+  .chatTop ul li i {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    vertical-align: middle;
+    margin-right: .5rem;
+    border-radius: 50%;
+    padding: .2rem;
+    box-sizing: border-box;
+    border: 2px solid #B766AD;
+
+  }
+
+  .chatTop ul li i img {
+    display: block;
+    width: 100%;
+  }
+
+  .chatTop ul li {
+    font-size: .75rem;
+
+  }
+
+  .zixunBox {
+    width: 95%;
+    height: auto;
+    padding: .3rem .5rem;
+    box-sizing: border-box;
+    margin: .5rem auto;
+    background-color: #F0F0F0;
+    border: 1px solid #ccc;
+    border-radius: .5rem;
+  }
+
+  .chat .zixunBox .time {
+    font-size: .7rem;
+    color: #333;
+    text-align: center;
+    display: block;
+    line-height: 1.2rem;
+    height: 1.2rem;
+  }
+
+  .chat .zixunBox dl {
+    overflow: hidden;
+    padding-left: 0.3rem;
+  }
+
+  .chat .zixunBox dl dt {
+    width: 1.3rem;
+    height: 1.3rem;
+    background: url(../images/route/lt_logo.png) no-repeat;
+    background-size: 100% 100%;
+    float: left;
+  }
+
+  .chat .zixunBox dl dd {
+    width: 87%;
+    padding: 0 0 0 .8rem;
+    box-sizing: border-box;
+    float: left;
+  }
+
+  .chat .zixunBox dl dd em {
+    width: 100%;
+    display: block;
+    height: 1.3rem;
+    background-color: #8b8b8b;
+    background-size: 4.02rem 0.74rem;
+    font-size: 0.75rem;
+    color: #fff;
+    line-height: 1.3rem;
+    text-align: center;
+    padding-left: 0.5rem;
+    position: relative;
+    border-radius: 0 .3rem .3rem .3rem;
+    margin-top: .8rem;
+  }
+
+  .chat .zixunBox dl dd em:after {
+    width: 0;
+    height: 0;
+    content: ' ';
+    border-right: #8b8b8b solid .5rem;
+    border-bottom: transparent solid .5rem;
+    display: block;
+    position: absolute;
+    left: .01rem;
+    transform: translateX(-100%);
+    top: 0;
+  }
+
+  .chat .zixunBox a {
+    width: 100%;
+    height: 1.75rem;
+    line-height: 1.3rem;
+    font-size: .7rem;
+    color: #8b8b8b;
+    display: block;
+    padding-left: .5rem;
+    margin: 0.5rem auto 0;
+    background-color: #fff;
+    border: #8b8b8b solid 1px;
+    border-radius: .3rem;
+  }
+
+
+
+  /* 在线预约 */
+  .online_booking {
+    margin-top: .5rem;
+    background-color: #fff;
+    padding: 2% 5%;
+    box-sizing: border-box;
+  }
+
+  .online_booking h3 {
+    font-size: .85rem;
+    color: #AE57A4;
+  }
+
+
+
+  .online_booking .Online_box {
+    width: 100%;
+    overflow: hidden;
+
+  }
+
+  .online_booking .Online_box .Online_text {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: .5rem;
+  }
+
+  .online_booking .Online_box .Online_fl,
+  .online_booking .Online_box .Online_fr {
+    float: left;
+    width: 48.5%;
+    margin-bottom: .15rem;
+    margin-right: 3%;
+    padding: .5rem;
+    box-sizing: border-box;
+
+  }
+
+  .online_booking .Online_box .Online_fr {
+    float: right;
+    margin-right: 0%;
+  }
+
+  .online_booking .Online_box .Online_fr select {
+    box-sizing: border-box;
+    width: 100%;
+    height: 1.35rem;
+    line-height: 1.05rem;
+    padding: 0.2rem .5rem;
+    font-size: .7rem;
+    color: #666;
+    background: #f4f4f4;
+    border-radius: 5px;
+  }
+
+  .online_booking .Online_box .Online_fr select option {
+    line-height: 1.5rem;
+    font-size: .7rem;
+  }
+
+  .online_booking .Online_box div span {
+    display: block;
+    font-size: .75rem;
+    color: #333;
+    margin-bottom: .09rem;
+  }
+
+  .online_booking .Online_box div input {
+    box-sizing: border-box;
+    width: 100%;
+    line-height: 1.4rem;
+    padding: 0 .5rem;
+    font-size: .7rem;
+    color: #666;
+    background: #f4f4f4;
+    border-radius: 5px;
+  }
+
+  .online_booking .Online_box .Online_but {
+    width: 100%;
+    padding: .5rem;
+    box-sizing: border-box;
+    float: left;
+  }
+
+  .online_booking .Online_box .Online_but textarea {
+    padding: 0.3rem .5rem;
+    width: 94%;
+    height: 3rem;
+    font-size: .7rem;
+    color: #666;
+    background: #f4f4f4;
+    border-radius: 5px;
+    margin-top: .5rem;
+  }
+
+  .Online_text i {
+    font-size: .75rem !important;
+    color: #ff0000 !important;
+  }
+
+
+
+  .Online_text>span {
+    padding: .5rem !important;
+    box-sizing: border-box !important;
+    font-size: .7rem !important;
+    color: #ff8800 !important;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .index-form-btn {
+    padding-top: .5rem;
+    overflow: hidden;
+  }
+
+  .index-form-btn input:first-child {
+    margin-right: 3%;
+  }
+
+
+
+  .index-form-btn input {
+    float: left;
+    width: 48.5%;
+    line-height: 1.8rem;
+    height: 1.8rem;
+    text-align: center;
+    font-size: .75rem;
+    cursor: pointer;
+    border-radius: 0;
+  }
+
+  .index-form-btn .sub {
+    background: #00A3BA;
+    color: #fff;
+  }
+
+  .index-form-btn .reset {
+    border: 1px solid #ddd;
+    color: #333;
+    line-height: 1.8rem;
+  }
+
+
+
+
+  /* 齿科技艺 见证美丽蜕变 */
+  .case_swiper {
+    margin-top: 1rem;
+  }
+
+  .case_box .swiper-slide {
+    width: 100%;
+    padding: 0rem .5rem .5rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #F0F0F0;
+  }
+
+  .case_box .swiper-slide>h2 {
+    width: 25%;
+    height: 1.5rem;
+    background: #aa020c;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: .73rem;
+    color: #fff;
+    margin-left: 1rem;
+
+  }
+
+
+
+
+
+  .case_text,
+  .case_img {
+    width: 100%;
+    margin-top: .5rem;
+
+  }
+
+  .case_text h3 {
+    font-size: .73rem;
+    line-height: 1.3rem;
+    color: #333;
+  }
+
+  .case_img {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .case_img img {
+    display: block;
+    width: 100%;
+  }
+
+  .case_flImg,
+  .case_frImg {
+    width: 45%;
+  }
+
+  .case_flImg h4,
+  .case_frImg h4 {
+    text-align: center;
+    font-size: .73rem;
+    margin-top: .5rem;
+    color: #555;
+  }
+
+  .case_img .case_flImg:last-child {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+
+
+
+
+
+
+
+
+  .case_box .swiper-pagination-bullet {
+    width: 1rem;
+    height: .3rem;
+    border-radius: 0%;
+  }
+
+
+  .case_box .swiper-button-prev {
+    left: 5%;
+    color: #fff;
+    padding: 3% 2%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .3);
+
+
+  }
+
+  .swiper-container-horizontal>.swiper-pagination-bullets,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 3px;
+  }
+
+
+  .case_box .swiper-button-next {
+    right: 5%;
+    color: #fff;
+    padding: 3% 2%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .3);
+  }
+
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    font-size: 1rem !important;
+  }
+
+
+  .case_box .swiper-pagination-bullet-active {
+    background-color: #AE57A4;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* 适配平板 Pro */
+  @media only screen and (min-width: 1024px) {
+    .map .content-window-card {
+      width: 15rem;
+    }
+  }
+
+
+
+  /* 适配平板 */
+  @media only screen and (max-width: 768px) {
+    .map .content-window-card {
+      width: 15rem;
+    }
+  }
+
+
+
+
+
+
+  /* 适配 Galaxy S5 */
+  @media only screen and (max-width: 360px) {
+
+    .map .content-window-card {
+      width: 16rem;
+    }
+  }
+
+  /* 适配 Photo 5s */
+  @media only screen and (max-width: 320px) {
+    .map .content-window-card {
+      width: 12.5rem;
+    }
+  }

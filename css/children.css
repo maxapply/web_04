@@ -1,0 +1,666 @@
+/* 头部 轮播图 */
+.header_swiper {
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+.header_swiper .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.header_swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.header_swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+#top_swiper .swiper-pagination-bullet {
+  width: 1rem;
+  height: .3rem;
+  border-radius: 0%;
+}
+
+
+#top_swiper .swiper-button-prev {
+  left: 5%;
+  color: #fff;
+  padding: 3% 2%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 3px;
+}
+
+
+#top_swiper .swiper-button-next {
+  right: 5%;
+  color: #fff;
+  padding: 3% 2%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 1rem !important;
+}
+
+
+#top_swiper .swiper-pagination-bullet-active {
+  background-color: #AE57A4;
+}
+
+.tit {
+  width: 100%;
+  text-align: center;
+}
+
+.tit h3 {
+  font-size: .9rem;
+  line-height: 1.5rem;
+  color: #AE57A4;
+}
+
+.tit p {
+  font-size: .6rem;
+  line-height: 1rem;
+  color: #999;
+}
+
+.tit h3 span {
+  color: #eb6153;
+}
+
+
+/* 儿牙问题不重视 孩子一生不自信 */
+.mbBox_01,
+.mbBox_02,
+.mbBox_03,
+.mbBox_04,
+.mbBox_05,
+.mbBox_06,
+.mbBox_07,
+.mbBox_08 {
+  width: 100%;
+  padding: .5rem 0rem;
+  box-sizing: border-box;
+  background-color: #ECF5FF;
+  margin-top: .5rem;
+  text-align: center;
+}
+
+.mbBox_01List {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: .5rem;
+}
+
+.mbBox_01List li {
+  width: 30%;
+  text-align: center;
+  float: left;
+  position: relative;
+  margin-left: 2.5%;
+  border-radius: .3rem;
+  overflow: hidden;
+  position: relative;
+  margin-top: .5rem;
+}
+
+.mbBox_01List li img {
+  display: block;
+  width: 100%;
+}
+
+
+.mbBox_01List li .info {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 74%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .5);
+  z-index: 3;
+  padding: .3rem;
+  box-sizing: border-box;
+}
+
+.mbBox_01List li .info h3 {
+  font-size: .73rem;
+  text-align: center;
+  line-height: 1rem;
+  color: #fff;
+}
+
+.mbBox_01List li .info p {
+  font-size: .7rem;
+  line-height: 1rem;
+  color: #fff;
+  text-align: left;
+
+}
+
+.mbBox_01List li .info p strong {
+  font-size: .73rem;
+  color: #ff0000;
+  font-weight: bolder;
+}
+
+
+.mbBox_01List li .info.rollUp {
+  animation: rollUp 1s linear forwards;
+}
+
+@keyframes rollUp {
+  0% {
+    transform: translateY(0%);
+  }
+
+  100% {
+    transform: translateY(-74%);
+  }
+}
+
+.mbBox_01List li .info.rollUp.on {
+  display: block;
+}
+
+
+.mbBox_01List li .info.rollDown {
+  animation: rollDown 1s linear forwards;
+}
+
+@keyframes rollDown {
+  0% {
+    transform: translateY(-74%);
+  }
+
+  100% {
+    transform: translateY(0%);
+
+  }
+}
+
+.mbBox_01>a,
+.mbBox_04>a {
+  display: inline-block;
+  font-size: .73rem;
+  line-height: 1.2rem;
+  padding: .1rem .5rem;
+  box-sizing: border-box;
+  border: 2px solid #0080FF;
+  border-radius: 1rem;
+  color: #fff;
+  background-color: #46A3FF;
+  box-shadow: 0rem 0rem .3rem .1rem #C4E1FF;
+}
+
+/* 12岁以后才能进行牙齿矫正？ */
+.mbBox_02,
+.mbBox_04,
+.mbBox_06,
+.mbBox_08 {
+  background-color: #fff;
+}
+
+.mbBox_02Text,
+.mbBox_03Text {
+  width: 100%;
+  padding: .5rem;
+  box-sizing: border-box;
+}
+
+.mbBox_02Text p,
+.mbBox_03Text p {
+  font-size: .73rem;
+  line-height: 1.2rem;
+  text-indent: 2em;
+  text-align: left;
+}
+
+.mbBox_02Img {
+  width: 100%;
+  overflow: hidden;
+  background-color: #F9B94D;
+}
+
+.mbBox_02Img img {
+  display: block;
+  width: 65%;
+  float: left;
+}
+
+.mbBox_02Img .mbBox_02ImgFr {
+  width: 35%;
+  float: right;
+  padding: .3rem .5rem;
+  box-sizing: border-box;
+}
+
+.mbBox_02Img .mbBox_02ImgFr p,
+.mbBox_03Img .mbBox_03ImgFl p {
+  font-size: .7rem;
+  line-height: 1rem;
+  margin-top: 2rem;
+  color: #fff;
+  text-align: left;
+}
+
+
+.mbBox_02Img .mbBox_02ImgFr a,
+.mbBox_03Img .mbBox_03ImgFl a {
+  font-size: .72rem;
+  display: inline-block;
+  padding: 0rem .5rem;
+  box-sizing: border-box;
+  line-height: 1.2rem;
+  border: 1px solid #fff;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+/* 为什么5~12岁是牙齿矫正的黄金期？ */
+.mbBox_03Img {
+  width: 100%;
+  background-color: #5C7AAC;
+  overflow: hidden;
+}
+
+.mbBox_03Img .mbBox_03ImgFl {
+  width: 65%;
+  float: left;
+  padding: .3rem .5rem;
+  box-sizing: border-box;
+}
+
+
+.mbBox_03Img img {
+  width: 35%;
+  float: right;
+}
+
+/* 儿童错颌畸形的“4不利”？ */
+.mbBox_04List {
+  width: 100%;
+  overflow: hidden;
+  background-color: #a0b2d3;
+  padding: .5rem;
+  box-sizing: border-box;
+  margin-bottom: .5rem;
+}
+
+.mbBox_04List .mbBox_04Text {
+  width: 50%;
+  float: left;
+}
+
+.mbBox_04List .mbBox_04Text h3 {
+  font-size: .75rem;
+  margin-bottom: 11.8%;
+  display: block;
+  color: #fff;
+}
+
+.mbBox_04List .mbBox_04Text h3:last-child {
+  margin-bottom: 0;
+}
+
+
+.mbBox_04List img {
+  display: block;
+  width: 50%;
+  float: right;
+}
+
+/* 四大核心技术 */
+.mbBox_05List {
+  width: 100%;
+  overflow: hidden;
+}
+
+.mbBox_05List li {
+  width: 23%;
+  text-align: center;
+  float: left;
+  margin-top: .5rem;
+  margin-left: 1.6%;
+}
+
+.mbBox_05List li img {
+  display: block;
+  width: 100%;
+  border-radius: .3rem;
+  border: 1px solid #9999CC;
+  box-sizing: border-box;
+}
+
+.mbBox_05List li p {
+  font-size: .73rem;
+  line-height: 1.2rem;
+  background-color: #9999CC;
+  color: #fff;
+  margin-top: .3rem;
+}
+
+.mbBox_05Text {
+  width: 100%;
+}
+
+.mbBox_05Text>h3 {
+  font-size: .75rem;
+  line-height: 1.3rem;
+  color: #ff8800;
+  text-align: left;
+  margin: .5rem 0rem .5rem .5rem;
+}
+
+.mbBox_05Img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.mbBox_05Img li {
+  width: 30%;
+  float: left;
+  margin-left: 2.5%;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: .5rem;
+  padding: .5rem 1rem;
+  box-sizing: border-box;
+}
+
+.mbBox_05Img li img {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.mbBox_05Img li h5 {
+  font-size: .72rem;
+  line-height: 1.2rem;
+}
+
+.mbBox_05Img li p {
+  font-size: .7rem;
+  line-height: 1rem;
+}
+
+.mbBox_05Img li:first-child h5 {
+  color: #E694BB;
+}
+
+.mbBox_05Img li:nth-child(2) h5 {
+  color: #868DC2;
+}
+
+.mbBox_05Img li:nth-child(3) h5 {
+  color: #44B0E9;
+}
+
+.mbBox_05Img li:nth-child(4) h5 {
+  color: #8CBD2E;
+}
+
+.mbBox_05Img li:nth-child(5) h5 {
+  color: #ECDD37;
+}
+
+.mbBox_05Img li:last-child h5 {
+  color: #E8952C;
+}
+
+/* 优贝口腔牙周治疗案例 */
+#case_swiper {
+  width: 90%;
+  margin: .5rem auto;
+  border-radius: .5rem;
+  overflow: hidden;
+}
+
+#case_swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+
+#case_swiper .swiper-pagination-bullet {
+  width: 1rem;
+  height: .3rem;
+  border-radius: 0%;
+}
+
+
+#case_swiper .swiper-button-prev {
+  left: 5%;
+  color: #fff;
+  padding: 3% 2%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 3px;
+}
+
+
+#case_swiper .swiper-button-next {
+  right: 5%;
+  color: #fff;
+  padding: 3% 2%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 1rem !important;
+}
+
+
+#case_swiper .swiper-pagination-bullet-active {
+  background-color: #AE57A4;
+}
+
+.mbBox_06Btn {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+}
+
+.mbBox_06Btn a {
+  flex: 1;
+  font-size: .63rem;
+  line-height: 1.3rem;
+  margin: 0 1rem;
+  border: 1px solid #333;
+  border-radius: 1rem;
+}
+
+.mbBox_06Btn a span {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  vertical-align: middle;
+  background: url(../images/treatment/rx.png)no-repeat center /100% 100%;
+  margin-right: .5rem;
+  margin-top: -.2rem;
+}
+
+
+.mbBox_06Btn a:last-child {
+  background-color: #8F4586;
+  color: #fff;
+  border: 1px solid #AE57A4;
+
+}
+
+
+
+
+/* 优贝口腔牙周治疗专家 */
+.mbBox_07 img {
+  display: block;
+  width: 100%;
+  margin: .5rem 0;
+}
+
+.mbBox_07Btn {
+  width: 80%;
+  margin: .5rem auto 0;
+  display: flex;
+  text-align: center;
+}
+
+.mbBox_07Btn a {
+  flex: 1;
+  font-size: .73rem;
+  line-height: 1.2rem;
+  padding: .1rem .5rem;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #AE57A4;
+  margin: 0rem .5rem;
+  border-radius: .3rem;
+}
+
+.mbBox_07Btn a:first-child {
+  animation: tilt 1s linear infinite;
+}
+
+
+
+@keyframes tilt {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.mbBox_07Btn a span {
+  display: inline-block;
+  width: 1.1rem;
+  height: 1.1rem;
+  vertical-align: middle;
+  margin-right: .5rem;
+  margin-top: -.1rem;
+  background: url(../images/teeth_whitening/lt.png)no-repeat center/100% 100%;
+}
+
+.mbBox_07Btn a:last-child span {
+  background: url(../images/plant/click.png)no-repeat center /100% 100%;
+}
+
+.mbBox_07Btn a:last-child {
+  animation: changeColor 1.5s linear infinite;
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: #8F4586;
+  }
+
+  50% {
+    background-color: #ff0000;
+  }
+
+  100% {
+    background-color: #8F4586;
+  }
+}
+
+/* 你可能感兴趣的专题 */
+.mbBox_08List {
+  width: 100%;
+  padding: .5rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.mbBox_08List li {
+  width: 48%;
+  float: left;
+  text-align: center;
+  margin-bottom: .5rem;
+  overflow: hidden;
+}
+
+.mbBox_08List li a {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.mbBox_08List li img {
+  display: block;
+  width: 100%;
+}
+
+.mbBox_08List li p {
+  font-size: .73rem;
+  line-height: 1.3rem;
+  color: #fff;
+  background-color: #9F4D95;
+}
+
+.mbBox_08List li:nth-child(2n) {
+  float: right;
+}
+
+@media screen and (min-width: 1024px) {
+  .mbBox_04List .mbBox_04Text h3 {
+    margin-bottom: 15%;
+  }
+
+  .mbBox_01List li .info.rollUp {
+    animation: rollUp 1s linear forwards;
+  }
+
+  @keyframes rollUp {
+    0% {
+      transform: translateY(0%);
+    }
+
+    100% {
+      transform: translateY(-80%);
+    }
+  }
+
+  .mbBox_01List li .info {
+    top: 80%;
+  }
+}
