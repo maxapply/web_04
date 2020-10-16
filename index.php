@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport"
     content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>优贝口腔</title>
@@ -341,58 +341,61 @@
   <section class="online_booking">
     <h3>在线预约</h3>
 
-    <div class="Online_box">
-      <div class="Online_text">
-        <div class="Online_fl">
-          <span><i>*</i> 姓名</span>
-          <input type="text" name="user_name" verification='no'  id="user_name"  placeholder="请填写您的姓名">
+    <form action="./post.php" method="post" onsubmit="return check();" enctype="multipart/form-data" accept-charset="UTF-8">
+      <div class="Online_box">
+        <div class="Online_text">
+          <div class="Online_fl">
+            <span><i>*</i> 姓名</span>
+            <input type="text" name="user_name" verification='no'  id="user_name"  placeholder="请填写您的姓名">
+          </div>
+          <div class="Online_fr">
+            <span><i>*</i> 电话</span>
+            <input type="text" name="User_telephone" verification='no' id="User_telephone" placeholder="请填写您的电话">
+          </div>
+
+          <div class="Online_fl">
+            <span>您的性别</span>
+            <input type="text" name="gender" id="gender" placeholder="请填写您的您的性别">
+          </div>
+
+          <div class="Online_fr">
+            <span>预约项目</span>
+            <select id="project" name="project" value="选择就诊项目">
+              <option value="选择就诊项目">请选择就诊项目</option>
+              <option value="种植牙">种植牙</option>
+              <option value="牙齿矫正">牙齿矫正</option>
+              <option value="牙齿不齐">牙齿不齐</option>
+              <option value="烤齿牙">烤齿牙</option>
+              <option value="牙齿缺失">牙齿缺失</option>
+              <option value="牙痛">牙痛</option>
+              <option value="补牙">补牙</option>
+              <option value="拔牙">拔牙</option>
+              <option value="治疗">治疗</option>
+              <option value="洗牙">洗牙</option>
+              <option value="智齿">智齿</option>
+              <option value="复诊">复诊</option>
+            </select>
+          </div>
+
+          <div class="Online_but">
+            <span>症状描述</span>
+            <textarea name="text" id="describe"  placeholder="请把问题留给我们，我们会提供让您满意的答案！"></textarea>
+          </div>
+
+          <span>
+          *填写信息已加密，保证您的隐私安全，我们会尽快与您取得联系，谢谢您的信任。*
+          </span>
+
+
         </div>
-        <div class="Online_fr">
-          <span><i>*</i> 电话</span>
-          <input type="text" name="User_telephone" verification='no' id="User_telephone" placeholder="请填写您的电话">
-        </div>
-
-        <div class="Online_fl">
-          <span>您的性别</span>
-          <input type="text" name="gender" id="gender" placeholder="请填写您的您的性别">
-        </div>
-
-        <div class="Online_fr">
-          <span>预约项目</span>
-          <select id="project" value="选择就诊项目">
-            <option value="选择就诊项目">请选择就诊项目</option>
-            <option value="种植牙">种植牙</option>
-            <option value="牙齿矫正">牙齿矫正</option>
-            <option value="牙齿不齐">牙齿不齐</option>
-            <option value="烤齿牙">烤齿牙</option>
-            <option value="牙齿缺失">牙齿缺失</option>
-            <option value="牙痛">牙痛</option>
-            <option value="补牙">补牙</option>
-            <option value="拔牙">拔牙</option>
-            <option value="治疗">治疗</option>
-            <option value="洗牙">洗牙</option>
-            <option value="智齿">智齿</option>
-            <option value="复诊">复诊</option>
-          </select>
-        </div>
-
-        <div class="Online_but">
-          <span>症状描述</span>
-          <textarea name="content" id="describe"  placeholder="请把问题留给我们，我们会提供让您满意的答案！"></textarea>
-        </div>
-
-        <span>
-        *填写信息已加密，保证您的隐私安全，我们会尽快与您取得联系，谢谢您的信任。*
-        </span>
-
-
       </div>
-    </div>
 
-    <div class="index-form-btn">
-      <input class="sub" type="submit" id="submit" value="提交">
-      <input class="reset" type="reset" id="reset" value="重置">
-    </div>
+      <div class="index-form-btn">
+        <input class="sub" type="submit"  id="submit" value="提交">
+        <input class="reset" type="reset" id="reset" value="重置">
+      </div>
+    </form>
+
   </section>
 
 
@@ -464,6 +467,7 @@
     });
   </script>
   <script src="<?php echo JS_PATH ?>/public.js"></script>
+
 
 </body>
 

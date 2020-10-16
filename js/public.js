@@ -66,6 +66,10 @@ $(".scroll_top").click(function () {
 })
 
 
+
+
+
+
 // 错误提示信息
 $(".error_btn").click(function () {
   $('.error_message').hide()
@@ -105,15 +109,20 @@ $("#User_telephone").blur(function () {
   }
 });
 
-// 点击提交按钮
-$('#submit').click(function () {
+function check() {
+
   var name = $("#user_name").attr('verification')
   var telephone = $("#User_telephone").attr('verification')
 
   if (name == 'yes' && telephone == 'yes') {
 
     console.log('信息全部填写正确，提交信息');
+
+
+    return true
+
   } else {
+
 
     // 判断信息填写是否有误
     if (name == 'no') {
@@ -127,8 +136,10 @@ $('#submit').click(function () {
       // 显示弹出框
       $('.error_message').show()
     }
+    return false
   }
-})
+
+}
 
 // 点击重置按钮
 $('#reset').click(function () {
@@ -138,3 +149,4 @@ $('#reset').click(function () {
   $('#project').val('选择就诊项目')
   $('#describe').val('')
 })
+
